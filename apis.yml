@@ -1,7 +1,24 @@
 aid: liveflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/liveflow.png
 name: LiveFlow
-description: LiveFlow is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: LiveFlow is an agentic accounting and FP&A platform that connects accounting
+  systems such as QuickBooks and Xero to real-time financial reporting, consolidation,
+  and forecasting. Its Flow product automates month-end close, reconciliation, accounts-receivable
+  management, and journal entries across multiple entities, while LiveFlow FP&A automates
+  consolidation, reporting, and forecasting on a company's existing systems. The platform
+  targets complex, multi-location businesses in construction, healthcare, food & beverage,
+  and retail. LiveFlow is backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/liveflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Accounting
+- Financial Reporting
+- FP&A
+- Fintech
+- Consolidation
+- Forecasting
+- Accounting Automation
+- Spreadsheets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +47,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://liveflow.com
+  url: https://liveflow.com
+- type: Pricing
+  url: https://liveflow.com/pricing
+- type: Blog
+  url: https://liveflow.com/blog
+- type: Login
+  url: https://app.liveflow.io/auth/sign-in
+- type: TermsOfService
+  url: https://liveflow.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://liveflow.com/privacy-policy
+- type: TrustCenter
+  url: security/liveflow-trust-center.yml
+- type: Compliance
+  url: https://trust.liveflow.com/
+- type: Security
+  url: security/liveflow-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/liveflow-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/liveflow-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
