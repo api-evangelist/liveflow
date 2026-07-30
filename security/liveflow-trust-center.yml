@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.liveflow.com/
+url: https://trust.liveflow.com/
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://trust.liveflow.com/
+  keywords:
+  - soc 2
+  - trust center
+  - compliance certification
+  - gdpr
